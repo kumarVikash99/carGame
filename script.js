@@ -107,17 +107,65 @@ function gamePlay(){
         moveLines();
         moveEnemy(car);
         playAudio();
-        if(player.score>1000){
-            player.speed=10;
+        if(player.score>500){
+            player.speed=6;
             score.innerHTML="Lelvel 2"
          }
-         if(player.score>1500){
-            player.speed=15;
+         if(player.score>600){
+            player.speed=7;
             score.innerHTML="Lelvel 3"
 
          }
+         if(player.score>700){
+            player.speed=8;
+            score.innerHTML="Lelvel 4"
+         }
+         if(player.score>800){
+            player.speed=9;
+            score.innerHTML="Lelvel 4"
+         }
+         if(player.score>900){
+            player.speed=10;
+            score.innerHTML="Lelvel 4"
+         }
+         if(player.score>1000){
+            player.speed=11;
+            score.innerHTML="Lelvel 4"
+         }
+         if(player.score>1200){
+            player.speed=13;
+            score.innerHTML="Lelvel 4"
+         }
+         if(player.score>1400){
+            player.speed=14;
+            score.innerHTML="Lelvel 4"
+         }
+         if(player.score>1500){
+            player.speed=15;
+            score.innerHTML="Lelvel 4"
+         }
+         if(player.score>1600){
+            player.speed=17;
+            score.innerHTML="Lelvel 4"
+         }
+         if(player.score>1800){
+            player.speed=18;
+            score.innerHTML="Lelvel 4"
+         }
+         if(player.score>1900){
+            player.speed=19;
+            score.innerHTML="Lelvel 4"
+         }
          if(player.score>2000){
             player.speed=20;
+            score.innerHTML="Lelvel 4"
+         }
+         if(player.score>2100){
+            player.speed=21;
+            score.innerHTML="Lelvel 4"
+         }
+         if(player.score>2200){
+            player.speed=22;
             score.innerHTML="Lelvel 4"
          }
         
